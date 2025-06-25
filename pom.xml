@@ -6,7 +6,7 @@
 
 	<groupId>6befc99e-8c92-4fa7-833d-e9da1a61020b</groupId>
 	<artifactId>api-sys-release-netsuite</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>api-sys-netsuite</name>
