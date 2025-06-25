@@ -5,10 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>6befc99e-8c92-4fa7-833d-e9da1a61020b</groupId>
-	<artifactId>Netsuite-System-api</artifactId>
+	<artifactId>netsuite-sys-api</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
-	<name>Netsuite-System-api</name>
+
+	<name>api-sys-netsuite</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

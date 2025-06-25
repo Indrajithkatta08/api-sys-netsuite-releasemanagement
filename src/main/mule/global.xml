@@ -10,9 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/schema/mule/secure-properties/current/mule-secure-properties.xsd">
 	 <http:listener-config name="api-sys-netsuite-httpListenerConfig">
         <http:listener-connection host="${secure::http.host}" port="${secure::http.port}" />
-    </http:listener-config>
-    
- <apikit:config name="api-sys-netsuite-config" api="resource::6befc99e-8c92-4fa7-833d-e9da1a61020b:api-sys-netsuite:1.0.0:raml:zip:api-sys-netsuite.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />	<secure-properties:config name="Secure_Properties_Config" doc:name="Secure Properties Config" doc:id="ee97b13a-d197-49a8-88b8-3d26e5215d38" file="configurations/configuration-${mule.env}.yaml" key="${key}" >
+    </http:listener-config>	<secure-properties:config name="Secure_Properties_Config" doc:name="Secure Properties Config" doc:id="ee97b13a-d197-49a8-88b8-3d26e5215d38" file="configurations/configuration-${mule.env}.yaml" key="${key}" >
 		<secure-properties:encrypt algorithm="Blowfish" />
 	</secure-properties:config>
 	
