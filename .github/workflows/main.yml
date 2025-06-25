@@ -6,5 +6,5 @@ on:
  
 jobs:
   call-workflow:
-    uses: IndrajithKatta07/pipeline/.github/workflows/pipeline.yml@main
+    uses: Indrajithkatta08/pipeline/.github/workflows/pipeline.yml@main
     secrets: inherit
